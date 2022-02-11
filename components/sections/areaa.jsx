@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 export default function AreaA(params) {
     return (
@@ -28,7 +28,7 @@ export default function AreaA(params) {
 
                         </div>
                         <div className='flex items-center justify-center'>
-                            <img src="../img/sunonubo.png" className='scale-75' alt="" />
+                            <Image src="/img/sunonubo.png" width={400} height={400} className='scale-75' alt="" />
                         </div>
                     </div>
                 </div>

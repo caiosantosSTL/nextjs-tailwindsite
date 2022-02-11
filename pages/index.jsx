@@ -30,7 +30,7 @@ export default function Home() {
 
         <AreaC
           a={
-            <img src="../img/sunonubo.png" alt="" />
+            <Image src="/img/sunonubo.png" alt="" width={500} height={500} />
 
           }
           b={
@@ -64,7 +64,7 @@ export default function Home() {
 
         <AreaC2
           a={
-            <img src="../img/sunonubo.png" alt="" />
+            <Image src="/img/sunonubo.png" alt="" width={500} height={500} />
           }
           b={
             <>
