@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import styless from '../styles/Bg.module.css'
+import Script from 'next/script'
 
 import AreaA from '../components/sections/areaa'
 import Footer from '../components/Footer'
@@ -10,6 +11,7 @@ import Navbar2 from '../components/Navbar2'
 import AreaB from '../components/sections/areab'
 import AreaC from '../components/sections/areac'
 import AreaC2 from '../components/sections/areac2'
+
 
 
 export default function Home() {
@@ -102,7 +104,7 @@ export default function Home() {
 
       
 
-      <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
+      <Script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></Script>
     </>
   )
 }
