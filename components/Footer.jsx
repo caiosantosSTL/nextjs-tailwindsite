@@ -16,11 +16,11 @@ export default function Footer(params) {
                             <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h3>
                             <ul>
                                 <li className="mb-4">
-                                    <a href="https://flowbite.com" target="_blank" rel="noreferrer"
+                                    <a href="https://flowbite.com" target="_blank" rel="noopener noreferrer"
                                         className="text-gray-600 hover:underline dark:text-gray-400">Flowbite</a>
                                 </li>
                                 <li>
-                                    <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"
+                                    <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"
                                         className="text-gray-600 hover:underline dark:text-gray-400">Tailwind CSS</a>
                                 </li>
                             </ul>
@@ -29,11 +29,11 @@ export default function Footer(params) {
                             <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h3>
                             <ul>
                                 <li className="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite" target="_blank"
+                                    <a href="https://github.com/themesberg/flowbite" target="_blank" rel="noopener noreferrer"
                                         className="text-gray-600 hover:underline dark:text-gray-400">Github</a>
                                 </li>
                                 <li>
-                                    <a href="https://discord.gg/4eeurUVvTy" target="_blank"
+                                    <a href="https://discord.gg/4eeurUVvTy" target="_blank" rel="noopener noreferrer"
                                         className="text-gray-600 hover:underline dark:text-gray-400">Discord</a>
                                 </li>
                             </ul>
@@ -42,11 +42,11 @@ export default function Footer(params) {
                             <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h3>
                             <ul>
                                 <li className="mb-4">
-                                    <a href="#" target="_blank" className="text-gray-600 hover:underline dark:text-gray-400">Privacy
+                                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:underline dark:text-gray-400">Privacy
                                         Policy</a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank" className="text-gray-600 hover:underline dark:text-gray-400">Terms
+                                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:underline dark:text-gray-400">Terms
                                         &amp; Conditions</a>
                                 </li>
                             </ul>
